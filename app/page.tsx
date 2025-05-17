@@ -3,6 +3,7 @@ import { DatePicker } from "@/components/custom/DatePicker";
 import { Modal } from "@/components/custom/Modal";
 import { Button } from "@/components/ui/button";
 import { Drawer } from "@/components/custom/Drawer";
+import { InputOTP } from "@/components/custom/InputOTP";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       >
         <p>Content</p>
       </Drawer>
+      <InputOTP length="3-3" />
     </div>
   );
 }
